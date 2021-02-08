@@ -18,7 +18,7 @@ def bubble_sort(array)
   array
 end
 
-print bubble_sort([10,9,8,7,6,5,4,3,2,1])
+print bubble_sort([10, 9, 8, 7, 6, 5, 4, 3, 2, 1])
 puts
 print bubble_sort(%w[hi hello hey])
 puts
