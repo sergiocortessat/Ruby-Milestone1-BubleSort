@@ -1,4 +1,4 @@
-def bubblesort(array)
+def bubble_sort_by(array)
   i = 0
   while i < array.length - 1
     result = yield(array[i], array[i + 1])
@@ -11,6 +11,6 @@ def bubblesort(array)
   end
   array
 end
-print bubblesort([14, 8, 3, 100, 3, 9, 2, 1, 0, 12, 20]) { |left, right| left - right }
+print bubble_sort_by([14, 8, 3, 100, 3, 9, 2, 1, 0, 12, 20]) { |left, right| left - right }
 puts
-print bubblesort(%w[hi hello hey]) { |left, right| left.length - right.length }
+print bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }

@@ -4,6 +4,10 @@
 
 > Creating first repository with Linter, separate commits and a HTML and CSS file
 
+## Screenshot
+
+![Screenshot](Screenshot.png)
+
 ## Built With
 
 - Ruby
@@ -11,7 +15,24 @@
 
 ## Getting Started
 
-Microverse Project Week 1.
+First ensure that you have ruby installed on your local machine.
+
+To get a local copy up and running follow these simple example steps.
+
+## Prequisites
+
+Ruby installed on your local machine.
+Terminal or similar to execute the program.
+
+
+## Install
+
+Download a copy of the bubblesort.rb file
+
+## Usage
+
+Execute in terminal like so ```ruby bubblesort.rb```
+
 
 ## Authors
 
@@ -19,7 +40,6 @@ Microverse Project Week 1.
 
 - GitHub: [@githubhandle](https://github.com/sergiocortessat)
 - Twitter: [@twitterhandle](https://twitter.com/sergiocortessat)
-- LinkedIn: [LinkedIn](https://linkedin.com/sergiocortessat)
 
 👤 Gregorio Rábago Sainz
 
@@ -30,7 +50,7 @@ Microverse Project Week 1.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/sergiocortessat/Ruby-Milestone1-BubleSort/issues).
 
 ## Show your support
 
