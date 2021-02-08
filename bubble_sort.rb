@@ -5,17 +5,20 @@ def bubble_sort(array)
       if array[i].length > array[i + 1].length
         array[i], array[i + 1] = array[i + 1], array[i]
         i = 0
+      else
+        i += 1
       end
     elsif array[i] > array[i + 1]
       array[i], array[i + 1] = array[i + 1], array[i]
       i = 0
+    else
+      i += 1
     end
-    i += 1
   end
   array
 end
 
-print bubble_sort([14, 8, 3, 100, 3, 9, 2, 1, 0, 12, 20])
+print bubble_sort([10,9,8,7,6,5,4,3,2,1])
 puts
 print bubble_sort(%w[hi hello hey])
 puts
